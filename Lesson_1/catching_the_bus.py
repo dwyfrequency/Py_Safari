@@ -2,11 +2,12 @@ import urllib.request
 from xml.etree.ElementTree import XML
 
 u = urllib.request.urlopen('http://ctabustracker.com/bustime/map/getStopPredictions.jsp?stop=14791&route=22')
+
 response = u.read()
 doc = XML(response)
 
-for j in doc:
-    print(j.text)
+#for j in doc:
+#    print(j.text)
 
 """
 Selects all subelements, on all levels beneath the current element. For
