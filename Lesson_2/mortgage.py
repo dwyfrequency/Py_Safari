@@ -4,8 +4,9 @@
 import argparse
 
 def print_schedule(principal, payment, rate, total_paid):
-    """Idea would to print the schedule regardless and send the yrs_to_pay here
-    just to print"""
+    """Could have this function push a schedule to a file, it would ask for a
+    filename
+    """
 
 
 def calc_yrs(principal=500000, payment=2684.11, rate=0.05, total_paid=0):
